@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Side menu styling */
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1001;
+    left: -250px; /* Initially hidden off-screen */
+    top: 0;
+    background-color: #111;
+    padding-top: 60px;
+    overflow-x: hidden;
+    transition: left 0.5s; /* Use left property for animation */
+}
+
+.sidenav.open {
+    left: 0; /* Display the side navigation when the 'open' class is present */
+}
+
+.sidenav a {
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Content styling */
+.content {
+    margin-left: 250px;
+    padding: 16px;
+    transition: margin-left 0.5s;
+}
