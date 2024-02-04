@@ -9,8 +9,7 @@
 
 body {
     background-image: linear-gradient(to right, #F59115, #46332e, #333);
-
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-top: 5em;
     display: flex;
     justify-content: center;
