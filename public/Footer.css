@@ -1,0 +1,11 @@
+/* Your CSS file */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex-grow: 1;
+    /* This will make the container grow to fill remaining space */
+}

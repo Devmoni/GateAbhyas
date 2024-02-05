@@ -12,7 +12,7 @@ function Card() {
   }
 
   return (
-    <div>
+    <div className="wrapper">
     <Navbar/>
         <div className="container">
       <div className="card" onClick={handleClick}>

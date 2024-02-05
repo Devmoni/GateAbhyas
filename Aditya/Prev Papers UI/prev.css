@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #1D1D1D;
+    background-color: white;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@ body {
     justify-content: space-between;
     flex-grow: 1;
     /* Fill remaining space */
-    padding: 20px;
+    padding: 15px;
 }
 
 .left-column {
@@ -52,7 +52,7 @@ body {
 .card {
     padding: 20px;
     margin-bottom: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     width: calc(50% - 10px);
     margin-right: 20px;
     background-color: #F59115;
@@ -122,9 +122,10 @@ body {
 
 .navbar {
     background-color: #333;
-    color: #F59115;
-    padding: 5px 10px;
-    /* Reduce padding to make the navbar smaller */
+    color: #f9f9f9;
+    padding: 15px;
+    width: 100%;
+    /* Adjusted padding */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -187,7 +188,7 @@ footer {
     background-color: #333;
     color: #F59115;
     text-align: center;
-    padding: 10px 0;
+    padding: 15px 0;
     margin-top: auto;
     /* Push footer to bottom */
 }
