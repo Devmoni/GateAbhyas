@@ -11,6 +11,11 @@ function NavBar() {
     setSideNavOpen(false);
   };
 
+  // const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  //   const toggleDropdown = () => {
+  //       setDropdownOpen(!dropdownOpen);
+  //   };
   return (
     <div>
       <div className="navbar">
@@ -29,6 +34,28 @@ function NavBar() {
       </div>
 
     </div>
+    
+//     <header>
+//     <nav className="navbar">
+//         <div className="navbar-left">Gate Abhyas</div>
+//         <div className="navbar-right">
+//             <div className="user-dropdown">
+//                 <img
+//                     src="/Aditya/Resources/user.png"
+//                     alt="User Logo"
+//                     className="user-logo"
+//                     onClick={toggleDropdown}
+//                 />
+//                 {dropdownOpen && (
+//                     <div className="dropdown-content" id="dropdownContent">
+//                         <a href="#">Profile</a>
+//                         <a href="#">Logout</a>
+//                     </div>
+//                 )}
+//             </div>
+//         </div>
+//     </nav>
+// </header>
   );
 }
 
